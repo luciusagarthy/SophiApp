@@ -28,8 +28,7 @@ namespace SophiApp.Helpers
         {
             new OsVersionCondition(), new OsBuildVersionCondition(), new OsFilesNotCorruptedCondition(), new RebootRequiredCondition(),
             new SingleInstanceCondition(), new SingleAdminSessionCondition(), new Win10TweakerCondition(), new SycnexScriptCondition(),
-            new DefenderWarningCondition(), new DefenderNotCorruptedCondition(), new SpoolerNotCorruptedCondition(),
-            new NewVersionCondition()
+            new DefenderWarningCondition(), new DefenderNotCorruptedCondition(), new NewVersionCondition()
         };
 
         internal async Task CheckAsync()
